@@ -1,0 +1,72 @@
+package trabalhoPOO;
+
+public class Consulta {
+
+	private int idConsulta;
+	private String dataAgendamento;
+	private String dataConsulta;
+	private String medicoResponsavel;
+	private String IdMedicoResponsavel;
+	private boolean consultaRealizada;
+
+	public void RegistrarConsulta() {
+
+	}
+
+	public void alterarConsuta() {
+
+	}
+
+	public void excluirConsulta() {
+
+	}
+
+	public int getIdConsulta() {
+		return idConsulta;
+	}
+
+	public void setIdConsulta(int idConsulta) {
+		this.idConsulta = idConsulta;
+	}
+
+	public String getDataAgendamento() {
+		return dataAgendamento;
+	}
+
+	public void setDataAgendamento(String dataAgendamento) {
+		this.dataAgendamento = dataAgendamento;
+	}
+
+	public String getDataConsulta() {
+		return dataConsulta;
+	}
+
+	public void setDataConsulta(String dataConsulta) {
+		this.dataConsulta = dataConsulta;
+	}
+
+	public String getMedicoResponsavel() {
+		return medicoResponsavel;
+	}
+
+	public void setMedicoResponsavel(String medicoResponsavel) {
+		this.medicoResponsavel = medicoResponsavel;
+	}
+
+	public String getIdMedicoResponsavel() {
+		return IdMedicoResponsavel;
+	}
+
+	public void setIdMedicoResponsavel(String idMedicoResponsavel) {
+		IdMedicoResponsavel = idMedicoResponsavel;
+	}
+
+	public boolean isConsultaRealizada() {
+		return consultaRealizada;
+	}
+
+	public void setConsultaRealizada(boolean consultaRealizada) {
+		this.consultaRealizada = consultaRealizada;
+	}
+
+}
